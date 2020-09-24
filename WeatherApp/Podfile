@@ -1,0 +1,11 @@
+platform :ios, '12.4'
+
+target 'WeatherApp' do
+  use_frameworks!
+
+  pod 'Kingfisher', '5.10'
+
+  target 'WeatherAppTests' do
+    inherit! :search_paths
+  end
+end
